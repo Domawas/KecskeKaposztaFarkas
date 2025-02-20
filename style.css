@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+
+main{
+    border:1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+article{
+    flex: 0 0 50%;
+    height: 500px;
+    background-image: url(kepek/csonak.png);
+    background-repeat: no-repeat;
+    background-color: lightblue;
+}
+
+#bal{
+    border:1px solid rgb(12, 12, 12);
+    margin: 10px;
+    flex: 0 0 20%;
+}
+article img{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+img{
+    width: 100px;
+
+}
+#jobb{
+    border:1px solid gray;
+    margin: 10px;
+    flex: 0 0 20%;
+}
